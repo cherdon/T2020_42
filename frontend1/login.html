@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" href="login.css">
+    <div style = "background-image: url('images/background.jpg');"></div>
+    <script src="login.js"></script>
+    <title>DBS</title>
+</head>
+<body>
+<div class="container">
+    <div class="main">
+        <img src = "images/logo.png" height="50px" width="50px">
+        <h2>DBS Login</h2>
+        <form id="form_id" method="post" name="myform">
+            <label>User Name :</label>
+            <input type="text" name="username" id="username"/>
+            <label>Password :</label>
+            <input type="password" name="password" id="password"/>
+            <input type="button" value="Login" id="submit" onclick="validate()"/>
+        </form>
+</div>
+</body>
+</html>
