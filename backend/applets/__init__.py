@@ -23,6 +23,6 @@ api = Api(app)
 # To set up API endpoints, simply import the class(Resource) and put the following:
 # api.add_resource(class, '/api/v1.0/SOMETHING')
 
-from backend.applets.app1 import SomethingAPI
+from backend.applets.user import UserAPI
 
-api.add_resource(SomethingAPI, "/Something/API/{}".format(app.config['API_VERSION']))
+api.add_resource(UserAPI, "/api/{}/user".format(app.config['API_VERSION']))

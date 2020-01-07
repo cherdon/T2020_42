@@ -1,4 +1,4 @@
-from applets import app
+from backend.applets import app
 
 
 if __name__ == "__main__":

@@ -1,0 +1,49 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "limzeyang",
+      "details": {
+        "gender": "Male",
+        "firstName": "Ze Yang",
+        "lastName": "Lim",
+        "lastLogIn": "2019-01-27T14:00:00.000+0000",
+        "dateOfBirth": "2000-02-01T00:00:00.000+0000",
+        "riskLevel": "Medium"
+      },
+      "accounts": [
+        {"accountId": 10, "type": "SAVINGS", "displayName": "POSB SAVINGS ACCOUNT", "accountNumber": "588967151"}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "marytan",
+      "details": {
+        "gender": "Female",
+        "firstName": "Hui Shan",
+        "lastName": "Tan",
+        "lastLogIn": "2019-01-29T18:00:00.000+0000",
+        "dateOfBirth": "1992-03-25T00:00:00.000+0000",
+        "riskLevel": "High"
+      },
+      "accounts": [
+        {"accountId": 79, "type": "SAVINGS", "displayName": "POSB SAVINGS ACCOUNT", "accountNumber": "490723483"}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "ahmadfarhan",
+      "details": {
+        "gender": "Male",
+        "firstName": "Ahmad",
+        "lastName": "Farhan",
+        "lastLogIn": "2019-01-27T14:00:00.000+0000",
+        "dateOfBirth": "1984-12-06T00:00:00.000+0000",
+        "riskLevel": "Low"
+      },
+      "accounts": [
+        {"accountId": 94, "type": "SAVINGS", "displayName": "POST SAVINGS ACCOUNT", "accountNumber": "491342319"}
+      ]
+    }
+  ]
+}
