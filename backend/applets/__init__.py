@@ -25,6 +25,8 @@ api = Api(app)
 
 from backend.applets.user import UserAPI
 from backend.applets.transactions import TransactionAPI
+from backend.applets.suggestion import SuggestionAPI
 
 api.add_resource(UserAPI, "/api/{}/user".format(app.config['API_VERSION']))
 api.add_resource(TransactionAPI, "/api/{}/transaction".format(app.config['API_VERSION']))
+api.add_resource(SuggestionAPI, "/api/{}/suggest".format(app.config['API_VERSION']))
