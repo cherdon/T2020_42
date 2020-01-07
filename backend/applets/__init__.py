@@ -24,5 +24,7 @@ api = Api(app)
 # api.add_resource(class, '/api/v1.0/SOMETHING')
 
 from backend.applets.user import UserAPI
+from backend.applets.transactions import TransactionAPI
 
 api.add_resource(UserAPI, "/api/{}/user".format(app.config['API_VERSION']))
+api.add_resource(TransactionAPI, "/api/{}/transaction".format(app.config['API_VERSION']))
