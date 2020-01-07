@@ -9,10 +9,12 @@
         "lastName": "Lim",
         "lastLogIn": "2019-01-27T14:00:00.000+0000",
         "dateOfBirth": "2000-02-01T00:00:00.000+0000",
-        "riskLevel": "Medium"
+        "riskLevel": "Medium",
+        "age": "20",
+        "occupation": "STUDENT"
       },
       "accounts": [
-        {"accountId": 10, "type": "SAVINGS", "displayName": "POSB SAVINGS ACCOUNT", "accountNumber": "588967151"}
+        {"accountId": 10, "type": "SAVINGS", "displayName": "POSB SAVINGS ACCOUNT", "accountNumber": "588967151", "monthlyDeposit": 800}
       ]
     },
     {
@@ -24,10 +26,12 @@
         "lastName": "Tan",
         "lastLogIn": "2019-01-29T18:00:00.000+0000",
         "dateOfBirth": "1992-03-25T00:00:00.000+0000",
-        "riskLevel": "High"
+        "riskLevel": "High",
+        "age": "28",
+        "occupation": "WORKING"
       },
       "accounts": [
-        {"accountId": 79, "type": "SAVINGS", "displayName": "POSB SAVINGS ACCOUNT", "accountNumber": "490723483"}
+        {"accountId": 79, "type": "SAVINGS", "displayName": "POSB SAVINGS ACCOUNT", "accountNumber": "490723483", "monthlyDeposit": 2000}
       ]
     },
     {
@@ -39,11 +43,91 @@
         "lastName": "Farhan",
         "lastLogIn": "2019-01-27T14:00:00.000+0000",
         "dateOfBirth": "1984-12-06T00:00:00.000+0000",
-        "riskLevel": "Low"
+        "riskLevel": "Low",
+        "age": "36",
+        "occupation": "WORKING"
       },
       "accounts": [
-        {"accountId": 94, "type": "SAVINGS", "displayName": "POST SAVINGS ACCOUNT", "accountNumber": "491342319"}
+        {"accountId": 94, "type": "SAVINGS", "displayName": "POST SAVINGS ACCOUNT", "accountNumber": "491342319", "monthlyDeposit": 0}
       ]
+    }
+  ],
+  "cards": [
+    {"name": "POSB Everyday",
+      "issuer": "MasterCard",
+      "cardType": "Credit",
+      "features": ["REBATES"],
+      "requirements": {
+        "minIncomePerAnnum": 30000,
+        "feeWaiverYears": 1,
+        "gender": "NA",
+        "occupation": "NA"
+      },
+      "benefits": [
+        "Up to 15% rebates on your daily essentials",
+        "Cash rebates earned never expire"
+      ],
+      "rewards": [
+        "Up to 15% rebates on dining and transport spend",
+        "Up to 6% rebates at SPC, Sheng Siong and Watsons",
+        "Up to 2% rebates on recurring electricity bills"
+      ],
+      "otherRewards": {
+        "motoring": "Get up to 20.1% petrol savings at SPC",
+        "dining": "Enjoy 1-for-1 dining offers and up to 15% rebates on your dining spend",
+        "movies": "NA",
+        "travel": "NA",
+        "healthcare": "NA"
+      }
+    },
+    {"name": "DBS Woman's Card",
+      "issuer": "MasterCard",
+      "cardType": "Credit",
+      "features": ["REWARDS"],
+      "requirements": {
+        "minIncomePerAnnum": 30000,
+        "feeWaiverYears": 1,
+        "gender": "FEMALE",
+        "occupation": "NA"
+      },
+      "benefits": [
+        "Earn 5X DBS Points (or 10 miles) for every S$5 spent online",
+        "Shop now, pay later with 0% interest payment plans"
+      ],
+      "rewards": [
+        "Earn 5X DBS Points (or 10 miles) for every S$5 spent online"
+      ],
+      "otherRewards": {
+        "motoring": "Get 14% instant fuel savings at Esso",
+        "dining": "On DBS Lifestyle App",
+        "movies": "NA",
+        "travel": "On DBS Lifestyle App",
+        "healthcare": "NA"
+      }
+    },
+    {"name": "DBS Live Fresh Student Card",
+      "issuer": "Visa",
+      "cardType": "Credit",
+      "features": ["REBATES"],
+      "requirements": {
+        "minIncomePerAnnum": 0,
+        "feeWaiverYears": 5,
+        "gender": "NA",
+        "occupation": "STUDENT"
+      },
+      "benefits": [
+        "Get 0.3% cashback on all spend!"
+      ],
+      "rewards": [
+        "Get 0.3% cashback on all spend!"
+      ],
+      "otherRewards": {
+        "motoring": "Get 14% instant fuel savings at Esso.",
+        "dining": "On DBS Lifestyle App",
+        "movies": "Enjoy exclusive discounts on movie tickets and popcorn combo sets at Golden Village.",
+        "travel": "On DBS Lifestyle App",
+        "healthcare": "NA"
+      }
     }
   ]
 }
