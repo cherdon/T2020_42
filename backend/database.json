@@ -128,9 +128,7 @@
         "travel": "On DBS Lifestyle App",
         "healthcare": "NA"
       }
-    }
-  ],
-  "accounts": [
+    },
     {"name": "DBS Multiplier Account",
       "type": "SAVINGS",
       "requirements": {
