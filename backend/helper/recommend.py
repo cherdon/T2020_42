@@ -8,14 +8,13 @@ suggestions = {
     },
     "marytan": {
         "suggested": [
-            {"type": "ACCOUNT", "name": "DBS Multiplier Account"},
-            {"type": "CREDIT", "name": "DBS Live Fresh Student Card"},
-            {"type": "CREDIT", "name": "DBS Vickers Online Trading Account"}
+            {"type": "ACCOUNT", "name": "DBS Multiplier Account"}
         ]
     },
     "ahmadfarhan": {
         "suggested": [
             {"type": "ACCOUNT", "name": "DBS Vickers Online Trading Account"},
+            {"type": "ACCOUNT", "name": "DBS Multiplier Account"},
             {"type": "CREDIT", "name": "POSB Everyday"}
         ]
     }
