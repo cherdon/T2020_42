@@ -1,5 +1,5 @@
 window.onload = function () {
-    var spendings = [ {label: "January", y: 2000}, {label: "February", y: 1000}, {label: "March", y: 500}, {label: "April", y: 800} ];
+    var spendings = [ {label: "September 2019", y: 2507.90} , {label: "November 2019", y: 2712.65}, {label: "December 2019", y: 2651.90}, {label: "January 2020", y: 245.80} ];
     var chart = new CanvasJS.Chart("chartContainer1", {
         zoomEnabled: true,
         panEnabled: true,
